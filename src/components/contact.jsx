@@ -20,7 +20,7 @@ export const ContactUs = () => {
             from_name: name,
             from_email: email,
             from_options: option,
-            to_name: 'form',
+            to_name: 'Nath',
         };
 
         emailjs.send(serviceId, templateId, templateParams, publicKey)
@@ -81,10 +81,10 @@ export const ContactUs = () => {
                         onChange={(e) => setOption(e.target.value)}
                         className="text-2xl"
                     >
-                        <option value="&#128529;">😐 Unhappy</option>
-                        <option value="&#128533;">😕 Could be better</option>
-                        <option value="&#128523;">😃 Satisfied</option>
-                        <option value="&#128525;">😍 Very Satisfied</option>
+                        <option value="&#128529;Happy">😐 Unhappy</option>
+                        <option value="&#128533;Couldbebetter">😕 Could be better</option>
+                        <option value="&#128523;Satisfied">😃 Satisfied</option>
+                        <option value="&#128525;Vsatisfied">😍 Very Satisfied</option>
                     </select>
                 </>
             )}
