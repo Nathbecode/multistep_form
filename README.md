@@ -15,3 +15,6 @@ This project is a multi-step form built with React that allows users to submit t
 - **EmailJS**: Service for sending emails directly from JavaScript.
 
 ## Link : [Multistep-form](https://multistep-form-6jsr.onrender.com)
+
+[Screenshot](https://github.com/Nathbecode/multistep_form/blob/main/public/MSF.PNG)
+[Screenshot](https://github.com/Nathbecode/multistep_form/blob/main/public/MSF2.PNG)
